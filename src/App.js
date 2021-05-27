@@ -7,8 +7,8 @@ const App = ()=> {
         <div className="App">
             <Router>
                 <Switch>
-                    <Route exact={true} path='/superhero-search/' component={Home} />
-                    <Route path='/superhero-search/hero/:heroId' component={Hero} />
+                    <Route exact={true} path='/' component={Home} />
+                    <Route path='/hero/:heroId' component={Hero} />
                 </Switch>            
             </Router>
         </div>
