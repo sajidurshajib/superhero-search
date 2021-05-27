@@ -1,0 +1,59 @@
+@import url('../../assets/css/colors.css');
+.Search{
+    background: url('../../assets/img/123.png');
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    z-index: initial;
+}
+.Search::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background-color: var(--navy-blue);
+    opacity: 0.6;
+}
+
+.field{
+    position: relative;
+    z-index: 200;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top:120px ;
+}
+.field form{
+    position: relative;
+}
+.field input{
+    width: 96%;
+    border: 0;
+    height: 35px;
+    border-radius: 3px;
+    padding:0 2%;
+}
+.field input:focus,
+.field input:hover{
+    border:none;
+    outline: 0;
+}
+.field button{
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: var(--white);
+    border: none;
+    outline: 0;
+    height: 100%;
+    border-radius: 0 3px 3px 0 ;
+    color: var(--grey);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid var(--semi-white);
+    cursor: pointer;
+}
+.field button:hover{
+    color: var(--dark-grey);
+}

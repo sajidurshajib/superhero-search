@@ -1,0 +1,37 @@
+@import url('../../assets/css/colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+.Menu{
+    padding: 15px 0;
+    /* background-image: linear-gradient(var(--navy-blue),var(--navy-blue),var(--navy-blue),transparent); */
+    background-color: var(--navy-blue);
+    position: relative;
+    z-index: 500;
+}
+.Logo{
+    font-family: 'Reggae One', cursive;
+    font-size: 22px;
+    color: var(--white);
+}
+
+.Menu ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 5px;
+}
+.Menu ul li{
+    float: left;
+    padding: 0 25px;
+}
+.Menu ul li a{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: var(--white);
+    line-height: 10px;
+    transition: 300ms;
+}
+.Menu ul li a:hover{
+    color: var(--mint);
+}

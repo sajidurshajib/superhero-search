@@ -1,0 +1,28 @@
+@import url('../../../assets/css/colors.css');
+
+
+.Result{
+    position: relative;
+    width: 70%;
+    min-height: 190px;
+    margin: 20px auto;
+}
+.Result a{
+    text-decoration: none;
+}
+.Result img{
+    display: block;
+    width: 140px;
+}
+.text{
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    color: var(--white);
+}
+.text h2{
+    color: var(--mint);
+}
+.text h4{
+    color: var(--red);
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('../../assets/css/colors.css');
+
+.HeroDetails{
+    background-color: var(--navy-blue);
+}
+.wrapper{
+    display: block;
+    margin: 0 20%;
+    border: 5px solid var(--mint);
+}
+.wrapper img{
+    width: 100%;
+    height: 100%;
+}
+
+.upper .img{
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+}
+.upper .img > span{
+    display: block;
+    width: 95%;
+    margin-left:100% ;
+    padding-left: 5%;
+}
+
+
+
+.name{
+    padding-top: 10px;
+    color: var(--white);
+    padding-bottom: 25px;
+}
+.name h2{
+    color: var(--mint);
+    font-size: 28px;
+    margin-left:0 ;
+    margin-bottom: 5px;
+}
+.name p{
+    line-height: 25px;
+    font-weight: bold;
+}
+.name p span{
+    width: 100%;
+    color: var(--orange);
+}
+
+
+
+.appearance{
+    padding-bottom: 25px;
+    color: var(--white);
+}
+
+.appearance h2{
+    color: var(--mint);
+    margin-bottom: 15px;
+}
+
+.appearance p{
+    position: relative;
+    line-height: 28px;
+}
+.appearance p span{
+    position: absolute;
+    left: 100px;
+    top:0;
+}
+
+
+
+.powerstats{
+    color: var(--white);
+}
+
+.powerstats h2{
+    color: var(--mint);
+    margin-bottom: 15px;
+}
+
+.powerstats p{
+    line-height: 30px;
+    position: relative;
+}
+
+.powerstats .outer{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    display: inline-block;
+    /* width: 200px; */
+    height: 7px;
+}
+.powerstats .inner{
+    position: inherit;
+    top: 0;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+
+    border-radius: 5px;
+    background-color: var(--orange);
+    animation: trn 3s;
+}
+
+@keyframes trn{
+    from {
+        width:0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.down{
+    color: var(--white);
+    padding: 15px;
+}
+.down p{
+    line-height: 28px;
+}
+.down h2{
+    color: var(--mint);
+    margin: 10px 0;
+}
+.down .section{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,6fr));
+    grid-column-gap:10px;
+    grid-row-gap:10px;
+}

@@ -1,0 +1,43 @@
+@import url('../../assets/css/colors.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.Body{
+    /* background: url('../../assets/img/bg.png'); */
+    background-color: var(--navy-blue);
+    padding: 50px 0;
+}
+
+.Wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 20%));
+    grid-column-gap:15px;
+    grid-row-gap:20px;
+}
+
+
+.btnSection{
+    display: table;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.btnSection button{
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    background-color: var(--mint);
+    border: none;
+    outline: 0;
+    color: var(--white);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btnSection span{
+    color: var(--white);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 15px;
+    padding-bottom:5px;
+    position: relative;
+    bottom: 2px;
+}
