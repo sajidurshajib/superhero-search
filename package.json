@@ -20,6 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "https://superheroapi.com/api/2316762801789772",
   "eslintConfig": {
     "extends": [
       "react-app",

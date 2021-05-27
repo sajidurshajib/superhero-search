@@ -7,7 +7,7 @@ const SingleHero = (props)=>{
     const [hero, setHero] = useState('')
 
     useEffect(() => {
-        fetch(`https://superheroapi.com/api/2316762801789772/${props.id}`)
+        fetch(`/${props.id}`)
             .then((response)=>{
                 if(!response.ok){
                     throw Error(response.statusText)
